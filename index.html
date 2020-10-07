@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/7c46d4e21a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Mi Portafolio</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand logo" href="#">ANGELES CAHILL</a>
+        <button class="navbar-toggler log" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#resumen">Sobre Mi <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experiencia">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#trabajos">Trabajos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap" href="#">Contacto</a>
+
+
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Contactame</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          <label for="recipient-name" class="col-form-label">Nombre</label>
+                          <input type="text" name="Nombre" id="name">
+                          <br>
+                          <label for="mail" class="col-form-label">e-mail</label>
+                          <input type="text" class="form-control" id="mail">
+                        </div>
+                        <div class="form-group">
+                          <label for="message-text" class="col-form-label">Mensaje:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary">Enviar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </li>
+          </ul>
+        </div>
+      </nav>
+     
+      <div class="card bg-dark text-white imagenfondo">
+        <img src="./assets/img/angelescahill.JPG" class="card-img imagenprincipal" alt="imagen de fondo">
+        <div class="card-img-overlay d-none d-lg-block">
+          <h5 class="card-title text-center ml-auto yosoy">YO SOY</h5>
+          <hr class="card-text">
+          <h5 class="card-text text-center ml-auto nombre">ANGELES</5>
+        </div>
+      </div>
+            
+        
+<main>
+
+          <section class="container d-none d-md-block">
+              <div class="row">
+                <h1 id="resumen" class="text-center tituloarticulo col-md-12 col-lg-12 col-xl-12">Un Pequeño Resumen de Mi</h1>
+                <small class="text-muted ml-auto mr-auto">LABORAL Y HOBBIES</small>
+              </div>
+          </section>
+       
+          <section class="container d-none d-md-block">
+              <div class="row mt-5">              
+          <div class="col-md-6 col-lg-6 col-xl-6">
+            <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+        </div>
+        <div class="col-md-6 col-lg-6 col-xl-6">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+      </div>
+    </div>
+</section>
+
+
+
+<h1 id="experiencia" class="text-center miexperiencia mt-5 pt-3 pb-5 shadow-lg p-3 mb-5 bg-white rounded" >MI EXPERIENCIA</h1>
+<section class="container text-center mt-1">
+    <div class="row">
+        <div class="stormtrooper col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <i class="far fa-building im1"></i>
+            <p class="exp">Corredora de Propiedades</p>
+            <p class="fecha">2015 - 2020</p>
+        </div>
+
+        <div class="stormtrooper col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <i class="fab fa-medium-m im1"></i>
+            <p class="exp">Desafio Latam</p>
+            <p class="fecha">Septiembre - 2020</p>
+        </div>
+    </div>
+</section>
+
+<div class="cv pb-5 pt-3 my-5">
+<h1 id="trabajos" class="display-5 text-center my-5 text-light mt-5">MIS ULTIMOS TRABAJOS</h1>
+<hr class="corto">
+
+<section class="container my-5">
+  <div class="row">
+    <div class="card-deck">
+      <div class="card">
+        <img src="assets/img/meet_coffee.png" class="card-img-top" alt="Meet&Coffe">
+        <div class="card-body">
+          <h5 class="card-title">Meet&Coffe</h5>
+          <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+         
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/img/iguana_page.png" class="card-img-top" alt="Iguana Page">
+        <div class="card-body">
+          <h5 class="card-title">Iguana Page</h5>
+          <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+         
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/img/suricata.png" class="card-img-top" alt="Suricata">
+        <div class="card-body">
+          <h5 class="card-title">Suricata</h5>
+          <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container my-5">
+  <div class="row">
+    <div class="card-deck">
+      <div class="card">
+        <img src="assets/img/cuppon.png" class="card-img-top" alt="Cuppon">
+        <div class="card-body">
+          <h5 class="card-title">Cuppon</h5>
+          <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+         
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/img/ricomida.png" class="card-img-top" alt="Ricomida">
+        <div class="card-body">
+          <h5 class="card-title">Ricomida</h5>
+          <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+         
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/img/dmark.png" class="card-img-top" alt="DMark">
+        <div class="card-body">
+          <h5 class="card-title">DMark</h5>
+          <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+</div>
+</main>
+
+<section >
+  <div class="text-center bg-white text-dark ">
+    <div class="card-body">
+      <h5 class="card-title contacto mt-5">CONTACTO</h5>
+      <hr class="corto">
+      <div>
+      <a href="https://desafioangelescahill.neocities.org/" class="h3">Mi pagina Web</a>
+    </div>
+      <button type="button" class="btn btn-dark mt-5">
+      <a href="https://angelescahill.typeform.com/to/j4SHjVRS" class="text-white">Comenzar</a>
+      </button>
+    </div>
+  </div>
+</section>  
+
+
+<footer class="pie text-light text-center">
+  <div class="container">
+    <div class="row">
+        <p class="text-center d-inline-block ml-auto my-5 logo col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">ANGELES CAHILL</p>
+        <div class="redes d-inline-block ml-auto my-5 mr-5">
+          
+            
+            <a href="https://github.com/AngelesCahillhttps://github.com/AngelesCahill" data-toggle="tooltip" data-placement="top" title="MI GITHUB"><i class="fab fa-github mx-2"></i></a>
+          
+          
+            <a href="https://www.linkedin.com/me/search-appearances/" data-toggle="tooltip" data-placement="top" title="MI LINKEDIN"><i class="fab fa-linkedin mx-2"></i></a>
+          
+          
+            <a href="https://twitter.com/login/error?username_or_email=angeles.cahill%40gmail.com&redirect_after_login=%2F%3Flang%3Des" data-toggle="tooltip" data-placement="top" title="MI TWITER"><i class="fab fa-twitter-square mx-2"></i></a>
+          
+          
+            <a href="https://www.facebook.com/" data-toggle="tooltip" data-placement="top" title="MI FACEBOOK"><i class="fab fa-facebook-square mx-2"></i></a>
+          </i>
+        </div>
+    </div>
+ </div>
+</footer>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
