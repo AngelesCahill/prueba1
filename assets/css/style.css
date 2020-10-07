@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-    background-color: #660066;
+    background-color:  #7B68EE;
 }
 .imagenfondo {
     position: relative;
@@ -36,7 +36,7 @@ nav {
 hr {
     border: 2px solid #ffffff;
     width: 9rem;
-    border-color: #660066;
+    border-color: #7B68EE;
    
 }
 
@@ -55,7 +55,7 @@ hr {
 
 .im1 {
     font-size: 100px;
-    color: #660066;
+    color:  #7B68EE;
 }
 .exp {
     font-size: 25px;
@@ -68,7 +68,7 @@ hr {
 }
 
 .cv {
-    background-color: #660066;
+    background-color: #F39C12;
 }
 
 .corto {
@@ -114,7 +114,7 @@ h6 {
 }
 
 .pie {
-    background-color: #660066;
+    background-color:  #7B68EE;
 }
 .pie p {
     font-size: 30px;
