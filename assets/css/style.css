@@ -5,6 +5,7 @@ body {
 .logo {
     font-family: 'Bubblegum Sans', cursive;
     font-weight: 700;
+    font-size: xx-large;
 }
 
 nav {
@@ -13,9 +14,6 @@ nav {
 .imagenfondo {
     position: relative;
     text-align: center;
-    
-    padding-left: 0;
-    padding-right: 0;
 }
 
 .imagenprincipal {
