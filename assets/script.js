@@ -3,9 +3,9 @@ $(function () {
     $().button('toggle')
     $().button('dispose')
 
-    $(function () {
-        $('[data-toggle="tooltip"]').tooltip()
-      })
+    
+    $('[data-toggle="tooltip"]').tooltip()
+     
 
     $('#myModal').on('shown.bs.modal', function () {
         $('#myInput').trigger('focus')
