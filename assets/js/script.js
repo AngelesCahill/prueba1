@@ -5,7 +5,7 @@ $(function () {
 
     
     $('[data-toggle="tooltip"]').tooltip()
-     
+  });
 
     $('#myModal').on('shown.bs.modal', function () {
         $('#myInput').trigger('focus')
@@ -73,7 +73,9 @@ $(function () {
         modal.find('.modal-body input').val(recipient)
       })
 
-});$('#exampleModal').on('show.bs.modal', function (event) {
+
+
+$('#exampleModal').on('show.bs.modal', function (event) {
   var button = $(event.relatedTarget) // Button that triggered the modal
   var recipient = button.data('whatever') // Extract info from data-* attributes
   // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
